@@ -106,7 +106,7 @@ body {
   border-radius: 100px;
   margin: 10px auto;
 }
-.second-container h1 {
+.second-container h2 {
   color: hsl(0deg, 0%, 100%);
   text-align: center;
   margin-top: 40px;
@@ -127,7 +127,7 @@ body {
     height: 18.5rem;
   }
 
-  .second-container h1 {
+  .second-container h2 {
     margin: 12px;
     margin-top: 20px;
   }
