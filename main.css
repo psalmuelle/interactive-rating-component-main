@@ -1,0 +1,162 @@
+.second-container, .first-container {
+  background: hsl(213deg, 19%, 18%);
+  width: 20.938rem;
+  height: 21.3rem;
+  border-radius: 30px;
+  box-shadow: 12px 12px 40px hsl(217deg, 12%, 63%), -15px -15px 40px hsl(215deg, 12%, 25%);
+  font-weight: 400;
+  padding: 2.1875rem 2.5rem;
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(216deg, 12%, 8%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first-container figure {
+  background: hsl(215deg, 12%, 25%);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin: 0;
+}
+.first-container img {
+  width: 16px;
+  display: block;
+}
+.first-container h1 {
+  color: hsl(0deg, 0%, 100%);
+  margin-top: 35px;
+  letter-spacing: 1.5px;
+}
+.first-container p {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 15px;
+  display: block;
+  margin-top: 0;
+}
+.first-container ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 35px;
+}
+.first-container ul li {
+  display: flex;
+  background: hsl(215deg, 12%, 25%);
+  width: 10px;
+  height: 10px;
+  color: hsl(217deg, 12%, 63%);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.first-container ul li:hover {
+  background: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+  transition: all 250ms ease-in;
+}
+.first-container button {
+  background: rgb(251, 116, 19);
+  border: none;
+  width: 100%;
+  height: 42px;
+  margin-top: 20px;
+  border-radius: 100px;
+  color: hsl(0deg, 0%, 100%);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background 500ms ease-out;
+}
+.first-container button:hover {
+  background: hsl(0deg, 0%, 100%);
+  color: rgb(251, 116, 19);
+}
+
+.second-container img {
+  display: block;
+  margin: 10px auto;
+}
+.second-container #confirm {
+  background: hsl(215deg, 12%, 25%);
+  color: rgb(251, 116, 19);
+  text-align: center;
+  padding-top: 3px;
+  height: 25px;
+  width: 195px;
+  border-radius: 100px;
+  margin: 10px auto;
+}
+.second-container h1 {
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  margin-top: 40px;
+}
+.second-container #appreciation {
+  color: hsl(217deg, 12%, 63%);
+  text-align: center;
+  margin: 0 -11px;
+}
+
+.visibility {
+  display: none;
+}
+
+@media screen and (max-width: 520px) {
+  .first-container, .second-container {
+    width: 15.938rem;
+    height: 18.5rem;
+  }
+
+  .second-container h1 {
+    margin: 12px;
+    margin-top: 20px;
+  }
+  .second-container #confirm {
+    margin-top: 25px;
+  }
+
+  .first-container figure {
+    margin: -12px;
+  }
+  .first-container h1 {
+    margin-top: 25px;
+    margin-bottom: 17px;
+    margin-left: -12px;
+  }
+  .first-container p {
+    margin-left: -12px;
+  }
+  .first-container ul {
+    margin: -12px;
+    margin-top: 17px;
+  }
+  .first-container li {
+    height: 7px;
+    width: 7px;
+  }
+  .first-container button {
+    margin-top: 32px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
