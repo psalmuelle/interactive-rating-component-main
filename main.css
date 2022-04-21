@@ -109,12 +109,13 @@ body {
 .second-container h2 {
   color: hsl(0deg, 0%, 100%);
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 .second-container #appreciation {
   color: hsl(217deg, 12%, 63%);
   text-align: center;
-  margin: 0 -11px;
+  margin: 10 -11px;
 }
 
 .visibility {
