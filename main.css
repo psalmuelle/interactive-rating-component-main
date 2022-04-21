@@ -105,12 +105,13 @@ body {
   width: 195px;
   border-radius: 100px;
   margin: 10px auto;
+  margin-top: 30px;
 }
 .second-container h2 {
   color: hsl(0deg, 0%, 100%);
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 35px;
+  margin-top: 27px;
+  margin-bottom: 27px;
 }
 .second-container #appreciation {
   color: hsl(217deg, 12%, 63%);
